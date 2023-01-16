@@ -1,0 +1,224 @@
+:root {
+    --primary-text: #2C2C2C;
+    --secondary-text: #7EB101;
+    --link-hover: #BBF330;
+    /* button's styles */
+    --prim-btn-bcg-col: #BBF330;
+    --prim-btn-bcg-hov: #FFE450;
+    --sec-btn-bcg-col: #FFFFFF;
+    --sec-btn-bcg-hov: #BBF330;
+    --third-btn-bcg-col: #BBF330;
+    --third-btn-bcg-hov: #FFE450;
+    --border-prim-btn: #BBF330;
+    --border-hover-btn: #FFE450;
+    --btn-text-col: #2C2C2C;
+
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--primary-text);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navigation */
+.site-nav {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.link {
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primary-text);
+    text-decoration: none;
+}
+
+/* Для nav и footer */
+.link:hover,
+.link:focus {
+    color: var(--link-hover);
+    font-weight: 700;}
+
+    
+/* Hero */
+/* H1 */
+.hero-text {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.2;
+}
+
+/* Offerings section */
+.offering-text {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+/* Offerings section H3 */
+.group {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+/* Offerings section p */
+.offering-text-small {
+    font-size: 14px;
+}
+
+
+/* Favorites section */
+/* H2  Favorites and Section Customers Say*/
+.favorites {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+/* p Favorites and Section Customers Say*/
+.favorites-text {
+    line-height: calc (19 / 16);
+    text-align: center;
+}
+
+.favorites-text-bold {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(21 / 18);
+}
+
+.favorites-name {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+/*Primary button*/
+.primary-btn {
+    background-color: var(--prim-btn-bcg-col);
+    color: var(--btn-text-col);
+    width: 98px;
+    height: 32px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    border-radius: 30px;
+    border: transparent;
+    /* text-align: right; */
+}
+
+.primary-btn:hover,
+.primary-btn:focus,
+.primary-btn:active {
+    background-color: var(--prim-btn-bcg-hov);
+}
+
+/*Second button*/
+.second-btn {
+    background-color: var(--sec-btn-bcg-col);
+    color: var(--btn-text-col);
+    width: 106px;
+    height: 40px;
+    left: 656px;
+    top: 1203px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    border: 2px solid var(--border-prim-btn);
+    border-radius: 50px;
+
+}
+
+.second-btn:hover,
+.second-btn:focus,
+.second-btn:active {
+    background-color: var(--sec-btn-bcg-hov);
+}
+
+/* Third button*/
+.third-btn {
+    background-color: var(--third-btn-bcg-col);
+    color: var(--btn-text-col);
+    width: 103px;
+    height: 42px;
+    left: 443px;
+    top: 3265px;
+    border-radius: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    border: transparent;
+}
+
+.third-btn:hover,
+.third-btn:focus,
+.third-btn:active {
+    background-color: var(--third-btn-bcg-hov);
+}
+
+
+/* Footer */
+.footer-base {
+    text-decoration: none;
+    color: var(--primary-text);
+    border-top: 2px, solid, transparent;
+}
+
+.footer a {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: calc (14 / 12);
+    text-decoration-line: underline;
+    color: var(--secondary-text);
+}
+
+.footer-text-another {
+    color: var(--secondary-text);
+}
+
+.footer-text {
+    font-size: 12px;
+    line-height: calc (14 /12);
+    text-align: right;
+
+}
+
+/* .footer .link:hover,
+.footer .link:focus{
+
+} */
+
+/* Footer button */
+.footer-btn {
+    background-color: var(--sec-btn-bcg-col);
+    color: var(--btn-text-col);
+    border-color: var(--border-prim-btn);
+    width: 103px;
+    height: 42px;
+    left: 1108px;
+    top: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    border: 0.854167px solid var(--border-prim-btn);
+    border-radius: 30px;
+}
+
+.footer-btn:hover,
+.footer-btn:focus,
+.footer-btn:active {
+    border-color: var(--border-hover-btn);
+}
