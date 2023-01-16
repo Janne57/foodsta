@@ -13,6 +13,8 @@
     --border-hover-btn: #FFE450;
     --btn-text-col: #2C2C2C;
 
+    
+
 }
 
 body {
@@ -48,7 +50,7 @@ ul {
     color: var(--link-hover);
     font-weight: 700;}
 
-    
+
 /* Hero */
 /* H1 */
 .hero-text {
